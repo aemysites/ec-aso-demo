@@ -6,7 +6,8 @@
     {
       "id": "foo",
       "title": "Foo",
-      "url": "/tools/sidekick/foo-palette.html",
+      "url": "http://localhost:3000/tools/sidekick/foo-palette.html",
+      "isPalette": true,
       "environments": [
         "dev",
         "edit",
