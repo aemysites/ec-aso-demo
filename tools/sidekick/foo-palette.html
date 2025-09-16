@@ -1,5 +1,50 @@
 <html>
+    <head>
+        <title>Catalyze Palette</title>
+        <style>
+            body {
+                color: #ffffff;
+                font-family: sans-serif;
+                background-color: #222222CC;
+            }
+            .loader {
+              width: 18px;
+              height: 18px;
+              border: 2px solid #FFF;
+              border-bottom-color: #FF3D00;
+              border-radius: 50%;
+              display: inline-block;
+              box-sizing: border-box;
+              animation: rotation 1s linear infinite;
+              }
+
+              @keyframes rotation {
+              0% {
+                  transform: rotate(0deg);
+              }
+              100% {
+                  transform: rotate(360deg);
+              }
+            }
+
+            ul {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
+
+            li {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+            }
+        </style>
+    </head>
     <body>
-        <h1>Foo Palette</h1>
+        <ul>
+          <li><span class="loader"></span> Catalyze Website...</li>
+          <li><span class="loader"></span> Close ASO Opportunities...</li>
+          <li><span class="loader"></span> Something else...</li>
+        </ul>
     </body>
 </html>
